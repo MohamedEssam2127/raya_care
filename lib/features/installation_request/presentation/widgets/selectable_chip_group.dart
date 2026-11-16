@@ -14,17 +14,11 @@ class SelectableChipGroup<T> extends StatelessWidget {
   });
 
   final String? label;
-
   final List<T> items;
-
   final T? selectedItem;
-
   final ValueChanged<T> onSelected;
-
   final String Function(T item)? itemLabel;
-
   final double spacing;
-
   final double runSpacing;
 
   @override

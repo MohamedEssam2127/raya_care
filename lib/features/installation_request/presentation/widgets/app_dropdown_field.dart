@@ -102,12 +102,6 @@ class AppDropdownField<T> extends StatelessWidget {
                           ),
                         ),
                       ),
-                      if (isSelected)
-                        AppIcon(
-                          AppIcons.check,
-                          color: palette.primary,
-                          size: 16,
-                        ),
                     ],
                   ),
                 );

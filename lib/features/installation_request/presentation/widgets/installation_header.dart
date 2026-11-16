@@ -1,7 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:raya_care/utils/app_icons.dart';
 import 'package:raya_care/utils/app_palette.dart';
-
 class InstallationHeader extends StatelessWidget {
   const InstallationHeader({
     super.key,
@@ -37,8 +37,7 @@ class InstallationHeader extends StatelessWidget {
                   Row(
                     children: [
                       InkWell(
-                        onTap:
-                            onBackPressed ?? () => Navigator.maybePop(context),
+                        onTap: onBackPressed ??  () {  },
                         borderRadius: BorderRadius.circular(12),
                         child: Container(
                           width: 42,
@@ -141,4 +140,3 @@ class InstallationHeader extends StatelessWidget {
     );
   }
 }
-

@@ -28,7 +28,7 @@ class InstallationRequestScreen extends StatelessWidget {
         backgroundColor: palette.bg,
         body: Column(
           children: [
-            InstallationHeader(onBackPressed: () {}),
+            InstallationHeader(onBackPressed: () {print("it  works :) ");}),
             Expanded(
               child: SingleChildScrollView(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 32),
